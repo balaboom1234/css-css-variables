@@ -3,5 +3,22 @@
   padding: 0;
   margin: 0;
 }
+:root {
+  --color-branding: #0070f3; /* Example branding color */
+  --color-secondary: #f5f5f5; /* Example secondary color */
+  --padding-level-5: 2rem;    /* Example padding size */
+  --font-size-3xl: 2.5rem;    /* Triple Extra Large */
+}
+
+.introduction {
+  background: var(--color-secondary);
+  padding: var(--padding-level-5);
+}
+
+.introduction h1 {
+  color: var(--color-branding);
+  font-size: var(--font-size-3xl);
+}
 
 /* Start coding here */
+
